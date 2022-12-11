@@ -4,7 +4,7 @@ import random
 import string
 
 def ec2_names():
-   
+  
     number = (int(input("How many EC2 instances do you want names for?" )))
     department = (input("What is the name of your department?" ))
     
@@ -17,7 +17,6 @@ def ec2_names():
         instances.append(name)
      
     print(instances)
-            
-     
+
 print(ec2_names())
 
